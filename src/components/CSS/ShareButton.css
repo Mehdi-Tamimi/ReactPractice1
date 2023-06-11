@@ -1,0 +1,8 @@
+.leftButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    font-size: 2rem;
+}

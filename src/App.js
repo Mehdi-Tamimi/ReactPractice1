@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Card from "./components/card";
+import './components/CSS/App.css'
+import camaro from './assets/images/camaro.jpg'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Card
+       
+       picture={camaro}
+       Name="Camaro"
+       description="Chevrolt is an iconic American car brand known for it's reliable, dependable and affordable 
+       vehicles. Founded in 1911, chevy has become one of the most recognizeable car brands in the world."
+       leftButton="Share"
+       rightButton="Learn More"
+
+       />
     </div>
-  );
+  )
 }
 
 export default App;

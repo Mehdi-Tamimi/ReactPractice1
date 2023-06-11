@@ -1,0 +1,12 @@
+.Card {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+.buttons {
+    display: flex;
+    padding: 16px;
+}

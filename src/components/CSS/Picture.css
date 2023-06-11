@@ -1,0 +1,10 @@
+.picture {
+   height: 160px;
+   width: 100%;
+   overflow: hidden;
+}
+   
+.picturestyle {
+    width: 100%;
+    height: 100%;
+}
